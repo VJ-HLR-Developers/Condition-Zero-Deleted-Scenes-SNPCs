@@ -437,7 +437,7 @@ function ENT:CustomOnGrenadeAttack_OnThrow(GrenadeEntity)
 		
 		GrenadeEntity:DoDamageCode()
 		GrenadeEntity:SetDeathVariablesTrue(nil,nil,false)
-		VJ_EmitSound(self,"vj_hlr/czeror_weapon/debris"..math.random(1,3)..".wav",80,math.random(100,100))
+		VJ_EmitSound(self,"vj_hlr/czeror_weapon/debris"..math.random(1,3)..".wav", 80, math.random(100,100))
 		GrenadeEntity:Remove()
 	end
 end
