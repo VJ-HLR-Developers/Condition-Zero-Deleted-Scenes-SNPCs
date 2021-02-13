@@ -14,7 +14,7 @@ local VJExists = file.Exists("lua/autorun/vj_base_autorun.lua","GAME")
 if VJExists == true then
 	include('autorun/vj_controls.lua')
 	
-	local vCat = "Half-Life Resurgence: CS:CZDS"
+	local vCat = "HL Resurgence: CS:CZDS"
 	VJ.AddCategoryInfo(vCat, {Icon = "vj_hl/icons/csczds.png"})
 		
 		-- Counter-Terrorist factions
